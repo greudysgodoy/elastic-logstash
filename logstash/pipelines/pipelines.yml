@@ -1,0 +1,5 @@
+- pipeline.id: filebeat_microservices_totem
+  path.config: "/usr/share/logstash/pipeline/conf.d/filebeat_microservices_totem.conf"
+
+- pipeline.id: filebeat_totems_windows
+  path.config: "/usr/share/logstash/pipeline/conf.d/filebeat_totems_windows.conf"
