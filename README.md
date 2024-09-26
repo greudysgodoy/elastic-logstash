@@ -1,7 +1,11 @@
-# Getting started with the Elastic Stack and Docker-Compose
+# Logstash with Docker
 
-This repo is in reference to the blog [Getting started with the Elastic Stack and Docker-Compose](https://www.elastic.co/blog/getting-started-with-the-elastic-stack-and-docker-compose)
+### Start container
+1. Rename `env.example` file to `.env`
 
-Please feel free to ask any questions via issues [here](https://github.com/elkninja/elastic-stack-docker-part-one/issues), our [Community Slack](https://ela.st/slack), or over in our [Discuss Forums](https://discuss.elastic.co/).
+2. Update env file with Elastic Host and Credentials. Also modify exposed ports for Totem Beats services
 
-Pull Requests welcome :)
+3. Start container
+```
+docker compose up -d
+```
